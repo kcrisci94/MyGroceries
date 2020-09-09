@@ -25,6 +25,9 @@ int main()
         list.push_back(item);
     }
   }while( input != 'q' && input != 'Q' );
-    
+  
+  for(int i = 0; i < list.size(); i++){
+     cout << list[i] << endl;
+  }
   return 0;
 }
